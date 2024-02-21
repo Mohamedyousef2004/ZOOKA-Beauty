@@ -1,0 +1,73 @@
+  .card {
+    width: calc(100% - 40px);
+    max-width: 1000px;
+    height: auto;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    perspective: 1000px;
+    box-shadow: 0 0 0 5px #ffffff80, 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    margin: 0 auto 3rem;
+  }
+  
+
+
+.card-img {
+  height: auto; /* Adjusted for responsiveness */
+  width: 100%;
+  border-radius: 7px;
+  transition: .3s ease;
+}
+
+.card-info {
+  padding-top: 5%;
+}
+
+/*Text*/
+.text-title {
+  font-weight: 900;
+  font-size: 1.2em;
+  line-height: 0%;
+}
+
+.text-body {
+  font-size: 1em; /* Adjust as needed */
+  padding-bottom: 5px; /* Adjust as needed */
+  padding-top: 2%; /* Adjust as needed */
+  font-family: 'Droid Arabic Naskh', sans-serif; /* Specify your preferred Arabic font */
+  font-style: italic;
+}
+
+
+/*Button*/
+.card-button {
+  border: 1px solid #252525;
+  display: flex;
+  padding: .3em;
+  cursor: pointer;
+  border-radius: 50px;
+  transition: .3s ease-in-out;
+}
+
+/*Hover*/
+.card-img:hover {
+  transform: translateY(-25%);
+  box-shadow: rgba(226, 196, 63, 0.25) 0px 13px 47px -5px, rgba(180, 71, 71, 0.3) 0px 8px 16px -8px;
+}
+
+.card-button:hover {
+  border: 1px solid #ffcaa6;
+  background-color: #ffcaa6;
+}
+#cardphoto{
+  width: 100%;
+  height: 100%;
+  border-radius: 0.5rem;
+ }
+#text{
+  width: 100%;
+  height: 100%;
+}
